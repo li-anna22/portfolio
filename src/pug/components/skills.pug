@@ -1,0 +1,26 @@
+include ../mixins/skill
+
+section.main 
+    .container 
+        h2.main__title Skills
+        .skills 
+            +skill({
+                img: "./assets/imgs/html5.svg",
+                title: 'HTML5'
+            })
+            +skill({
+                img: "./assets/imgs/css3.svg",
+                title: 'CSS3'
+            })
+            +skill({
+                img: "./assets/imgs/pug.svg",
+                title: 'Pug'
+            })
+            +skill({
+                img: "./assets/imgs/gulp.svg",
+                title: 'Gulp'
+            })
+            +skill({
+                img: "./assets/imgs/sass.svg",
+                title: 'SCSS'
+            })

@@ -1,0 +1,21 @@
+include ../mixins/work
+
+section.main 
+    .container 
+        h2.main__title Works 
+        .works
+            +work({
+                link: 'https://li-anna22.github.io/dz1_anna/proj_ice-cream/index.html   ',
+                img: "./assets/imgs/work1.png",
+                tech: 'Techs: HTML, CSS',
+            })
+            +work({
+                link: 'https://li-anna22.github.io/dz2_anna/index.html',
+                img: "./assets/imgs/work2.png",
+                tech: 'Techs: HTML, CSS',
+            })
+            +work({
+                link: 'https://li-anna22.github.io/gulp-project/build/index.html',
+                img: "./assets/imgs/work3.png",
+                tech: 'Techs: PUG, SCSS, GULP',
+            })
